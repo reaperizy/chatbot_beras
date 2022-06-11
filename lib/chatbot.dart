@@ -82,8 +82,8 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
                           }
                         } else {
                           setState(() {
-                            messsages.insert(0,
-                                {"data": 1, "message": messageInsert.text});
+                            messsages.insert(
+                                0, {"data": 1, "message": messageInsert.text});
                           });
                           response(messageInsert.text);
                           messageInsert.clear();
