@@ -63,7 +63,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/newagent-cexb-7568d2be3be8.json
     - assets/images/
     - assets/icons/
     - assets/
