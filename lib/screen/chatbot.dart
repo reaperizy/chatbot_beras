@@ -18,7 +18,7 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
   List<Map> messsages = [];
   void response(query) async {
     AuthGoogle authGoogle =
-        await AuthGoogle(fileJson: "assets/newagent-cexb-7568d2be3be8.json")
+        await AuthGoogle(fileJson: "assets/crudential-chatbot_tokoberas.json")
             .build();
     DialogFlow dialogflow = DialogFlow(authGoogle: authGoogle, language: "id");
     AIResponse aiResponse = await dialogflow.detectIntent(query);
