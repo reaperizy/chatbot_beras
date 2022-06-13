@@ -1,6 +1,6 @@
-import 'package:chatbot_beras/pages/welcome_screen.dart';
+import 'welcome_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:chatbot_beras/common/constant.dart';
+import 'constant.dart';
 
 void main() => runApp(const MyApp());
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Auth',
+      title: 'Chatbot Toko Beras',
       theme: ThemeData(
           primaryColor: kPrimaryColor,
           scaffoldBackgroundColor: Colors.white,

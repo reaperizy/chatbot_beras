@@ -1,4 +1,4 @@
-import 'package:chatbot_beras/common/constant.dart';
+import 'constant.dart';
 import 'package:flutter/material.dart';
 
 class AboutPage extends StatelessWidget {
@@ -9,7 +9,7 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('About'),
+        title: const Text('About Me'),
         backgroundColor: kPrimaryColor,
         elevation: 0,
       ),
@@ -34,8 +34,8 @@ class AboutPage extends StatelessWidget {
               ),
               Container(
                 margin: const EdgeInsets.only(top: 25),
-                width: 300,
-                height: 380,
+                width: 320,
+                height: 400,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(12),
@@ -81,9 +81,9 @@ class AboutPage extends StatelessWidget {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(10.0),
                       child: Text(
-                        'KWI (Keanekaragaman Wisata Indonesia) merupakan aplikasi untuk memperkenalkan seluruh UMKM, destinasi wisata, dan budaya di Indonesia kepada turis lokal maupun mancanegara.',
+                        'Project Chatbot Toko Beras adalah aplikasi ChatBot dengan tema Toko Beras dimana project ini dibuat dengan bantuan Dialogflow serta dibuat dengan bahasa pemrograman Dart melalui framework Flutter. Project ini dibuat sebagai bahan penelitian pada matkul Penulisan Ilmiah (PI).',
                         style: darkPurpleTextStyle,
                         textAlign: TextAlign.center,
                       ),
@@ -92,6 +92,9 @@ class AboutPage extends StatelessWidget {
                 ),
               ),
             ],
+          ),
+          const SizedBox(
+            height: 15.0,
           ),
           Container(
             margin: const EdgeInsets.only(top: 20),
@@ -116,23 +119,25 @@ class AboutPage extends StatelessWidget {
                   SizedBox(
                     height: 10,
                   ),
-                  Text('Grup ID: CPSG-25'),
+                  Center(
+                    child: Text('Biodata Pembuat  ',textAlign: TextAlign.center,),
+                  ),
                   SizedBox(
                     height: 20,
                   ),
-                  Text('1. P2211B177 - Dion Sunardi'),
+                  Text('Nama     :   Wadi Wahyudin'),
                   SizedBox(
                     height: 5,
                   ),
-                  Text('2. P2009A052 - Wadi Wahyudin'),
+                  Text('NPM       :   56419540'),
                   SizedBox(
                     height: 5,
                   ),
-                  Text('3. P2007A023 - Luthfi I'),
+                  Text('Kelas      :   3IA19'),
                   SizedBox(
                     height: 5,
                   ),
-                  Text('4. P2387A387 - Maulana Aryo N'),
+                  Text('Jurusan  :  Teknik Informatika'),
                 ],
               ),
             ),

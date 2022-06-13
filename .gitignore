@@ -45,6 +45,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-# Assets Dialogflow
-assets/newagent-cexb-7568d2be3be8.json
