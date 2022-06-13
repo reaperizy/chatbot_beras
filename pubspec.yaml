@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   dialogflow_flutter: ^1.0.0
   bubble: ^1.2.1
+  flutter_svg: ^1.1.0
+  google_fonts: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -61,9 +63,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/newagent-cexb-7568d2be3be8.json
-    - assets/bot.png
-    - assets/user.png
+    - assets/images/
+    - assets/icons/
+    - assets/
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

@@ -1,4 +1,5 @@
 import 'package:bubble/bubble.dart';
+import 'package:chatbot_beras/common/constant.dart';
 import 'package:dialogflow_flutter/googleAuth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -8,6 +9,7 @@ class ChatBotScreen extends StatefulWidget {
   const ChatBotScreen({Key? key}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _ChatBotScreenState createState() => _ChatBotScreenState();
 }
 
@@ -32,6 +34,7 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: kPrimaryColor,
         centerTitle: true,
         toolbarHeight: 70,
         shape: const RoundedRectangleBorder(
@@ -106,7 +109,7 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
       padding: const EdgeInsets.all(10.0),
       child: Bubble(
           radius: const Radius.circular(15.0),
-          color: data == 0 ? Colors.brown : Colors.orangeAccent,
+          color: data == 0 ? Colors.orange : Colors.purple,
           elevation: 0.0,
           alignment: data == 0 ? Alignment.topLeft : Alignment.topRight,
           nip: data == 0 ? BubbleNip.leftBottom : BubbleNip.rightTop,
@@ -116,6 +119,7 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 CircleAvatar(
+                  backgroundColor: Colors.white,
                   backgroundImage: AssetImage(
                       data == 0 ? "assets/bot.png" : "assets/user.png"),
                 ),
