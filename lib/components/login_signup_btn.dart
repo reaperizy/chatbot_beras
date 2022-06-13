@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:chatbot_beras/chatbot.dart';
-import 'aboutme.dart';
-import 'constant.dart';
+import 'package:chatbot_beras/common/constant.dart';
+import 'package:chatbot_beras/screen/chatbot.dart';
+import 'package:chatbot_beras/screen/aboutme.dart';
 
 class LoginAndSignupBtn extends StatelessWidget {
   const LoginAndSignupBtn({

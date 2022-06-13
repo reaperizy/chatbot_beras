@@ -1,5 +1,5 @@
 import 'package:bubble/bubble.dart';
-import 'constant.dart';
+import 'package:chatbot_beras/common/constant.dart';
 import 'package:dialogflow_flutter/googleAuth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

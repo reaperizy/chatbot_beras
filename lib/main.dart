@@ -1,6 +1,6 @@
-import 'welcome_screen.dart';
 import 'package:flutter/material.dart';
-import 'constant.dart';
+import 'common/constant.dart';
+import 'package:chatbot_beras/screen/welcome_screen.dart';
 
 void main() => runApp(const MyApp());
 

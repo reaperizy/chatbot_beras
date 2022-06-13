@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'constant.dart';
+import 'package:chatbot_beras/common/constant.dart';
 
 class WelcomeImage extends StatelessWidget {
   const WelcomeImage({

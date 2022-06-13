@@ -1,4 +1,4 @@
-import 'constant.dart';
+import 'package:chatbot_beras/common/constant.dart';
 import 'package:flutter/material.dart';
 
 class AboutPage extends StatelessWidget {

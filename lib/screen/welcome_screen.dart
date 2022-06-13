@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-
-import 'background.dart';
-import 'login_signup_btn.dart';
-import 'responsive.dart';
-import 'welcome_image.dart';
+import 'package:chatbot_beras/components/background.dart';
+import 'package:chatbot_beras/components/login_signup_btn.dart';
+import 'package:chatbot_beras/components/responsive.dart';
+import 'package:chatbot_beras/components/welcome_image.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
