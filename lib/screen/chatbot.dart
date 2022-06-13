@@ -121,7 +121,7 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
                 CircleAvatar(
                   backgroundColor: Colors.white,
                   backgroundImage: AssetImage(
-                      data == 0 ? "assets/bot.png" : "assets/user.png"),
+                      data == 0 ? "assets/icons/bot.png" : "assets/icons/user.png"),
                 ),
                 const SizedBox(
                   width: 10.0,
