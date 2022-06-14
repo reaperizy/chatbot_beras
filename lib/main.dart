@@ -1,6 +1,6 @@
+import 'package:chatbot_beras/screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'common/constant.dart';
-import 'package:chatbot_beras/screen/welcome_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
               borderSide: BorderSide.none,
             ),
           )),
-      home: const WelcomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
