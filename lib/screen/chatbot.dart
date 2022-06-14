@@ -109,7 +109,7 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
       padding: const EdgeInsets.all(10.0),
       child: Bubble(
           radius: const Radius.circular(15.0),
-          color: data == 0 ? Colors.orange : Colors.blue,
+          color: data == 0 ? Colors.orange : Colors.purple,
           elevation: 0.0,
           alignment: data == 0 ? Alignment.topLeft : Alignment.topRight,
           nip: data == 0 ? BubbleNip.leftBottom : BubbleNip.rightTop,

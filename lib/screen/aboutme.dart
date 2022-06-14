@@ -41,7 +41,7 @@ class AboutPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                   boxShadow: [
                     BoxShadow(
-                        color: kPrimaryColor.withOpacity(0.5),
+                        color: Colors.purple.withOpacity(0.5),
                         spreadRadius: 2,
                         blurRadius: 3),
                   ],
@@ -105,7 +105,7 @@ class AboutPage extends StatelessWidget {
               borderRadius: BorderRadius.circular(20),
               boxShadow: const [
                 BoxShadow(
-                  color: kPrimaryColor,
+                  color: Colors.purple,
                   spreadRadius: 2,
                   blurRadius: 4,
                 )
