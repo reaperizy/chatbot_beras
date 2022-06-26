@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:chatbot_beras/common/constant.dart';
 import 'package:chatbot_beras/screen/chatbot.dart';
 import 'package:chatbot_beras/screen/aboutme.dart';
+import 'package:chatbot_beras/screen/tablekey.dart';
 
 class LoginAndSignupBtn extends StatelessWidget {
   const LoginAndSignupBtn({
@@ -37,7 +38,7 @@ class LoginAndSignupBtn extends StatelessWidget {
               context,
               MaterialPageRoute(
                 builder: (context) {
-                  return const AboutPage();
+                  return const TableChatBotKey();
                 },
               ),
             );
@@ -45,8 +46,27 @@ class LoginAndSignupBtn extends StatelessWidget {
           style: ElevatedButton.styleFrom(
               primary: kPrimaryLightColor, elevation: 0),
           child: Text(
-            "About Me".toUpperCase(),
+            "Chatbot Key".toUpperCase(),
             style: const TextStyle(color: Colors.black),
+          ),
+        ),
+        const SizedBox(height: 16),
+        Hero(
+          tag: "login_btn",
+          child: ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const AboutPage();
+                  },
+                ),
+              );
+            },
+            child: Text(
+              "About Me".toUpperCase(),
+            ),
           ),
         ),
       ],
