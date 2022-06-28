@@ -51,22 +51,19 @@ class LoginAndSignupBtn extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 16),
-        Hero(
-          tag: "login_btn",
-          child: ElevatedButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return const AboutPage();
-                  },
-                ),
-              );
-            },
-            child: Text(
-              "About Me".toUpperCase(),
-            ),
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) {
+                  return const AboutPage();
+                },
+              ),
+            );
+          },
+          child: Text(
+            "About Me".toUpperCase(),
           ),
         ),
       ],
