@@ -4,8 +4,8 @@ import 'package:chatbot_beras/components/home_button.dart';
 import 'package:chatbot_beras/components/responsive.dart';
 import 'package:chatbot_beras/components/home_image.dart';
 
-class WelcomeScreen extends StatelessWidget {
-  const WelcomeScreen({Key? key}) : super(key: key);
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +32,7 @@ class WelcomeScreen extends StatelessWidget {
                 ),
               ],
             ),
-            mobile: const MobileWelcomeScreen(),
+            mobile: const MobileHomePage(),
           ),
         ),
       ),
@@ -40,8 +40,8 @@ class WelcomeScreen extends StatelessWidget {
   }
 }
 
-class MobileWelcomeScreen extends StatelessWidget {
-  const MobileWelcomeScreen({
+class MobileHomePage extends StatelessWidget {
+  const MobileHomePage({
     Key? key,
   }) : super(key: key);
 
