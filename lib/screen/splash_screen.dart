@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:chatbot_beras/screen/welcome_screen.dart';
+import 'package:chatbot_beras/screen/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 

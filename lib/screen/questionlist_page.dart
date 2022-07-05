@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:chatbot_beras/common/constant.dart';
 
-class TableChatBotKey extends StatelessWidget {
-  const TableChatBotKey({Key? key}) : super(key: key);
+class QuestionListPage extends StatelessWidget {
+  const QuestionListPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset : false,
       appBar: AppBar(
-        title: const Text('Table Key'),
+        title: const Text('Chatbot Question List'),
         backgroundColor: kPrimaryColor,
         elevation: 0,
       ),
@@ -18,7 +18,7 @@ class TableChatBotKey extends StatelessWidget {
             DataTable(
                   columns: const [
                     DataColumn(
-                      label: Center(child: Text('Information',
+                      label: Center(child: Text('Topic',
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.w800,
@@ -26,7 +26,7 @@ class TableChatBotKey extends StatelessWidget {
                       ),),),
                     ),
                     DataColumn(
-                        label: Text('Keywords',
+                        label: Text('Question',
                           style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.w800,

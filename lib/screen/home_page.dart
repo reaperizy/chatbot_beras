@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:chatbot_beras/components/background.dart';
-import 'package:chatbot_beras/components/login_signup_btn.dart';
+import 'package:chatbot_beras/components/home_button.dart';
 import 'package:chatbot_beras/components/responsive.dart';
-import 'package:chatbot_beras/components/welcome_image.dart';
+import 'package:chatbot_beras/components/home_image.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
@@ -17,7 +17,7 @@ class WelcomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 const Expanded(
-                  child: WelcomeImage(),
+                  child: HomeImage(),
                 ),
                 Expanded(
                   child: Row(
@@ -25,7 +25,7 @@ class WelcomeScreen extends StatelessWidget {
                     children: const [
                       SizedBox(
                         width: 450,
-                        child: LoginAndSignupBtn(),
+                        child: HomeButton(),
                       ),
                     ],
                   ),
@@ -50,13 +50,13 @@ class MobileWelcomeScreen extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        const WelcomeImage(),
+        const HomeImage(),
         Row(
           children: const [
             Spacer(),
             Expanded(
               flex: 8,
-              child: LoginAndSignupBtn(),
+              child: HomeButton(),
             ),
             Spacer(),
           ],

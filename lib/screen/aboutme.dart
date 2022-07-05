@@ -120,7 +120,13 @@ class AboutPage extends StatelessWidget {
                     height: 10,
                   ),
                   Center(
-                    child: Text('Biodata Pembuat  ',textAlign: TextAlign.center,),
+                    child: Text('Biodata Pembuat  ',
+                     style: TextStyle(
+                            fontSize: 15.0,
+                            fontWeight: FontWeight.bold
+                              //color: Colors.yellow,
+                              ),
+                     textAlign: TextAlign.center,),
                   ),
                   SizedBox(
                     height: 20,

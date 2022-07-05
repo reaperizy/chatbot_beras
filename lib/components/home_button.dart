@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:chatbot_beras/common/constant.dart';
 import 'package:chatbot_beras/screen/chatbot.dart';
 import 'package:chatbot_beras/screen/aboutme.dart';
-import 'package:chatbot_beras/screen/tablekey.dart';
+import 'package:chatbot_beras/screen/questionlist_page.dart';
 
-class LoginAndSignupBtn extends StatelessWidget {
-  const LoginAndSignupBtn({
+class HomeButton extends StatelessWidget {
+  const HomeButton({
     Key? key,
   }) : super(key: key);
 
@@ -27,7 +27,7 @@ class LoginAndSignupBtn extends StatelessWidget {
               );
             },
             child: Text(
-              "GET STARTED WITH CHATBOT".toUpperCase(),
+              "CHATBOT".toUpperCase(),
             ),
           ),
         ),
@@ -38,7 +38,7 @@ class LoginAndSignupBtn extends StatelessWidget {
               context,
               MaterialPageRoute(
                 builder: (context) {
-                  return const TableChatBotKey();
+                  return const QuestionListPage();
                 },
               ),
             );
@@ -46,7 +46,7 @@ class LoginAndSignupBtn extends StatelessWidget {
           style: ElevatedButton.styleFrom(
               primary: kPrimaryLightColor, elevation: 0),
           child: Text(
-            "Chatbot Key".toUpperCase(),
+            "chatbot question list".toUpperCase(),
             style: const TextStyle(color: Colors.black),
           ),
         ),
